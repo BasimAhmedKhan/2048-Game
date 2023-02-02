@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #776e65;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.head{
+    width: 400px;
+    height: 150px;
+    margin-top: 30px;
+}
+
+.new-game{
+    text-decoration: none;
+}
+
+.score{
+    color: white;
+    background-color: #776e65;
+    height: 30px;
+    width: 90px;
+    border-radius: 3px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.new-game:hover{
+    cursor: pointer;
+}
+
+.board{
+    height: 400px;
+    width: 400px;
+    background: #cdc1b5;
+    border: 5px solid  #bbada0;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile{
+    height: 90px;
+    width: 90px;
+    border: 5px solid #bbada0;
+    font-size: 50px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.b2 {
+    background-color: #eee4da;
+    color: #727371;
+}
+
+.b4 {
+    background-color: #ece0ca;
+    color: #727371;
+}
+
+.b8 {
+    background-color: #f4b17a;
+    color: white;
+}
+
+.b16{
+    background-color: #f59575;
+    color: white;
+}
+
+.b32{
+    background-color: #f57c5f;
+    color: white;
+}
+
+.b64{
+    background-color: #f65d3b;
+    color: white;
+}
+
+.b128{
+    background-color: #edce71;
+    color: white;
+}
+
+.b256{
+    background-color: #edcc63;
+    color: white;
+}
+
+.b512{
+    background-color: #edc651;
+    color: white;
+}
+
+.b1024{
+    background-color: #eec744;
+    color: white;
+}
+
+.b2048{
+    background-color: #ecc230;
+    color: white;
+}
+
+.b4096 {
+    background-color: #fe3d3d;
+    color: white;
+}
+
+.b8192 {
+    background-color: #ff2020;
+    color: white;
+}
+
+.footer{
+    width: 400px;
+    height: 200px;
+    margin-top: 80px;    
+}
+
+p{
+    font-size: 17px;
+}
