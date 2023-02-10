@@ -67,6 +67,12 @@ document.addEventListener('keyup', (e) => {
     document.getElementById("score").innerText = "Score: " + score;
 })
 
+window.addEventListener("keydown", function(e) {
+    if(["Space","ArrowUp","ArrowDown","ArrowLeft","ArrowRight"].indexOf(e.code) > -1) {
+        e.preventDefault();
+    }
+}, false);
+
 function filterZero(row){
     return row.filter(num => num != 0); 
 }
