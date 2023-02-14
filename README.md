@@ -8,6 +8,8 @@
 
 ## Working Application
 
+Check Out the Live Version -> [2048](https://basimahmedkhan.github.io/2048-Game/)
+
 ![Demo](https://github.com/BasimAhmedKhan/2048-Game/blob/main/Readme%20Resources/new.gif)
 
 
