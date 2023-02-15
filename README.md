@@ -63,4 +63,4 @@ Front-End
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](https://github.com/BasimAhmedKhan/2048-Game/blob/main/LICENSE)
