@@ -5,6 +5,10 @@
     color: #776e65;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: antiquewhite;
 }
@@ -177,7 +181,7 @@ p{
     }
 }
 
-@media only screen and (min-width: 300px) {
+/* @media only screen and (min-width: 300px) {
     :root {
         font-size: 10px;
     }
@@ -191,6 +195,22 @@ p{
     .footer{
         margin-top: 2rem;
     }
+} */
+
+@media only screen and (max-width: 500px) {
+    :root {
+        font-size: 10px;
+    }
+    .tile{
+        height: 5.65rem;
+        width: 5.65rem;
+    }
+    .arrow-keys, .key{
+        display: flex;
+    }
+    .footer{
+        margin-top: 2rem;
+    }  
 }
 
 /* @media only screen and (min-width: 400px) {
