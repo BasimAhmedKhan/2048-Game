@@ -17,9 +17,9 @@ body{
 }
 
 .head{
-    width: 400px;
-    height: 150px;
-    margin-top: 30px;
+    width: 25rem;
+    height: 9.375rem;
+    margin-top: 2rem;
 }
 
 .new-game{
@@ -29,9 +29,9 @@ body{
 .score{
     color: white;
     background-color: #776e65;
-    height: 30px;
-    width: 90px;
-    border-radius: 3px;
+    height: 1.875rem;
+    width: 5.625rem;
+    border-radius: 0.2rem;
     float: right;
     display: flex;
     justify-content: center;
@@ -39,7 +39,7 @@ body{
 }
 
 .title{
-    font-size: 60px;
+    font-size: 3.75rem;
     font-weight: bold;
 }
 
@@ -48,20 +48,20 @@ body{
 }
 
 .board{
-    height: 400px;
-    width: 400px;
+    height: 25rem;
+    width: 25rem;
     background: #cdc1b5;
-    border: 5px solid  #bbada0;
-    border-radius: 5px;
+    border: 0.3125rem solid  #bbada0;
+    border-radius: 0.3125rem;
     display: flex;
     flex-wrap: wrap;
 }
 
 .tile{
-    height: 90px;
-    width: 90px;
-    border: 5px solid #bbada0;
-    font-size: 50px;
+    height: 5.625rem;
+    width: 5.625rem;
+    border: 0.3125rem solid #bbada0;
+    font-size: 3.125rem;
     font-weight: bold;
     display: flex;
     justify-content: center;
@@ -135,11 +135,66 @@ body{
 }
 
 .footer{
-    width: 400px;
-    height: 200px;
-    margin-top: 80px;    
+    width: 25rem;
+    height: 12.5rem;
+    margin-top: 5rem;    
 }
 
 p{
-    font-size: 17px;
+    font-size: 1.1rem;
 }
+
+.arrow-keys, .key{
+    display: none;
+}
+
+.key{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    background-color: #bbada0;
+    margin: 0.5rem;
+}
+
+.key img{
+    width: 4.5rem;
+}
+
+#keyup{
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 300px) {
+    :root {
+        font-size: 8px;
+    }
+    .tile{
+        height: 5.75rem;
+        width: 5.75rem;
+    }
+}
+
+@media only screen and (min-width: 300px) {
+    :root {
+        font-size: 10px;
+    }
+    .tile{
+        height: 5.65rem;
+        width: 5.65rem;
+    }
+    .arrow-keys, .key{
+        display: flex;
+    }
+    .footer{
+        margin-top: 2rem;
+    }
+}
+
+/* @media only screen and (min-width: 400px) {
+    :root {
+        font-size: 14px;
+    }
+} */

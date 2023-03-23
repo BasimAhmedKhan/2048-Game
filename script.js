@@ -45,7 +45,6 @@ function updateTile(tile, num) {
     }
 }
 
-
 document.addEventListener('keyup', (e) => {
     if (e.code == "ArrowLeft") {
         slideLeft();
@@ -66,6 +65,26 @@ document.addEventListener('keyup', (e) => {
     }
     document.getElementById("score").innerText = "Score: " + score;
 })
+
+// For Mobile Devices 
+
+document.getElementById("keyup").addEventListener("click", (e) => {
+    slideUp();
+    setTwo();
+});
+document.getElementById("keydown").addEventListener("click", (e) => {
+    slideDown();
+    setTwo();
+});
+document.getElementById("keyright").addEventListener("click", (e) => {
+    slideRight();
+    setTwo();
+});
+document.getElementById("keyleft").addEventListener("click", (e) => {
+    slideLeft();
+    setTwo();
+});
+
 
 window.addEventListener("keydown", function(e) {
     if(["Space","ArrowUp","ArrowDown","ArrowLeft","ArrowRight"].indexOf(e.code) > -1) {
