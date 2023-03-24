@@ -70,6 +70,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 500ms all linear;
 }
 
 
@@ -171,39 +172,13 @@ p{
     justify-content: center;
 }
 
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 500px) {
     :root {
-        font-size: 8px;
+        font-size: 12px;
     }
     .tile{
         height: 5.75rem;
         width: 5.75rem;
-    }
-}
-
-/* @media only screen and (min-width: 300px) {
-    :root {
-        font-size: 10px;
-    }
-    .tile{
-        height: 5.65rem;
-        width: 5.65rem;
-    }
-    .arrow-keys, .key{
-        display: flex;
-    }
-    .footer{
-        margin-top: 2rem;
-    }
-} */
-
-@media only screen and (max-width: 500px) {
-    :root {
-        font-size: 10px;
-    }
-    .tile{
-        height: 5.65rem;
-        width: 5.65rem;
     }
     .arrow-keys, .key{
         display: flex;
@@ -213,8 +188,18 @@ p{
     }  
 }
 
-/* @media only screen and (min-width: 400px) {
+@media only screen and (max-width: 400px) {
     :root {
-        font-size: 14px;
+        font-size: 10px;
     }
-} */
+    .arrow-keys, .key{
+        display: flex;
+    }
+    .tile{
+        height: 5.65rem;
+        width: 5.65rem;
+    }
+    .footer{
+        margin-top: 2rem;
+    }  
+}
